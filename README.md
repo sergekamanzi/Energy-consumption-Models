@@ -1,5 +1,7 @@
 # Energy-consumption-Models
 
+FastAPI = https://github.com/sergekamanzi/Energy-supervised-fastapi
+
 ## **1️ Supervised Learning (Your energy consumption predictor)**
 
 
