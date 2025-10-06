@@ -10,7 +10,7 @@
   * Estimated bill
   * Tariff bracket
 
-** API:**
+API:
 
 * `/predict` endpoint uses supervised learning.
 * It predicts **how much electricity each appliance will consume**, the **total energy**, and **the bill**, based on what it learned from past data.
