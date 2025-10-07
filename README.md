@@ -2,7 +2,6 @@
 
 FastAPI = https://github.com/sergekamanzi/Energy-supervised-fastapi
 
-Video = https://www.youtube.com/watch?v=mcohwHe89DU
 
 ## **1️ Supervised Learning (Your energy consumption predictor)**
 
