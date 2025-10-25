@@ -81,7 +81,7 @@ API:
 - **Anomaly Detection**: Isolation Forest with automatic thresholding
 - **Batch Processing**: Analyze multiple households simultaneously
 - **Real-time Analysis**: Instant results with model explanations
-
+---
 ## Setup Instructions
 
 1. Activate Python Environment
