@@ -21,66 +21,66 @@ API:
 
 ## **2️ Unsupervised Learning (Clustering & anomaly detection)**
 
-## Clustering Methodology
+###  Clustering with K-Means
 
-### Household Segmentation
-The system categorizes households into three distinct groups:
+**What it does:**
+- Groups households into 3 distinct consumption profiles
+- Identifies natural patterns in energy usage behavior
+- Creates customer segments for targeted recommendations
 
-- **Cluster 0**: Low to moderate energy consumers
-- **Cluster 1**: Moderate to high energy consumers  
-- **Cluster 2**: High energy consumers with specific usage patterns
+**Household Clusters:**
+1. **Low Consumption Households** - Minimal energy usage, typically smaller families
+2. **Medium Consumption Households** - Balanced usage across essential appliances  
+3. **High Consumption Households** - Large households or high-energy appliance users
 
-### Feature Analysis
-The clustering considers multiple dimensions:
+**Features Analyzed:**
 - Monthly energy consumption (kWh)
-- Electricity bill amounts
-- Household size and composition
-- Regional location factors
-- Income level indicators
-- Appliance usage patterns
-- Per-capita energy consumption
+- Bill amounts and tariff brackets
+- Household size and demographics
+- Regional patterns and income levels
+- Appliance usage intensity
 
-### Anomaly Detection
-The system identifies unusual consumption patterns using:
-- **Isolation Forest**: Detects outliers based on feature isolation
-- **Autoencoder**: Neural network approach for pattern reconstruction
-- **Consensus-based validation**: Combines both methods for reliable detection
+###  Anomaly Detection with Isolation Forest
 
-## Output Structure
+**What it does:**
+- Identifies unusual consumption patterns automatically
+- Flags households that deviate from normal behavior
+- Detects potential issues like faulty appliances or unusual usage
 
-### Cluster Profiles
-Each cluster receives:
-- Size distribution and characteristics
-- Typical consumption ranges
-- Regional and demographic patterns
-- Behavioral usage insights
+**Anomaly Indicators:**
+- Extremely high energy consumption
+- Unusual bill amounts for household characteristics
+- Abnormal per-capita consumption
+- Regional consumption outliers
 
-### Anomaly Reports
-- Flagged unusual consumption cases
-- Severity scoring for each anomaly
-- Feature contributions to anomaly detection
-- Regional and temporal patterns
+###  Business Applications
 
-## Usage
-
-### Input Requirements
-- Household energy consumption data
-- Appliance usage information
-- Demographic and regional data
-- Historical consumption patterns
-
-### Output Delivery
-- Labeled dataset with cluster assignments
-- Anomaly detection flags and scores
-- Cluster characteristic summaries
-- Visualization-ready data formats
-
-## Applications
+**For Energy Providers:**
 - Targeted energy efficiency programs
-- Customized tariff recommendations
-- Regional energy planning
-- Consumption pattern analysis
-- Anomaly investigation and follow-up
+- Customer segmentation for personalized services
+- Early detection of unusual consumption patterns
+- Resource planning based on consumption clusters
+
+**For Households:**
+- Personalized energy-saving recommendations
+- Understanding consumption relative to similar households
+- Early detection of potential appliance issues
+- Budget planning based on cluster benchmarks
+
+### How to Use
+
+1. **Generate Reports** - Create household energy predictions first
+2. **Run Analysis** - Click "Run AI Analysis" in Admin section
+3. **View Clusters** - See household segmentation results
+4. **Check Anomalies** - Review flagged households for investigation
+5. **Get Insights** - Access business recommendations and patterns
+
+###  Technical Implementation
+
+- **Clustering**: K-Means algorithm with feature scaling
+- **Anomaly Detection**: Isolation Forest with automatic thresholding
+- **Batch Processing**: Analyze multiple households simultaneously
+- **Real-time Analysis**: Instant results with model explanations
 
 ## Setup Instructions
 
