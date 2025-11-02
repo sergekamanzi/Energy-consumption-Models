@@ -3,7 +3,7 @@
 FastAPI = https://github.com/sergekamanzi/Energy-supervised-fastapi
 
 video = https://youtu.be/mcohwHe89DU
-## **1️ Supervised Learning (Your energy consumption predictor)**
+## **1️ Supervised Learning (energy consumption predictor)**
 
 
 * **Inputs:** Household info (size, income, region) + appliance details (power, usage hours, quantity).
