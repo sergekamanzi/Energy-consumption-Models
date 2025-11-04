@@ -2,7 +2,7 @@
 
 FastAPI digital ocean = https://seahorse-app-8xk3k.ondigitalocean.app/docs
 
-landingpage = https://github.com/sergekamanzi/powerlyticsUI
+landingpage = https://powerlytics-ui.vercel.app/
 
 dashboard = https://github.com/sergekamanzi/Energy-Consumption-Dashboard
 
