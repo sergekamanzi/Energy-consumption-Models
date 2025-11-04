@@ -92,7 +92,7 @@ API:
 - **Real-time Analysis**: Instant results with model explanations
 ---
 
-## ** 3 Time Series
+## **3 Time Series**
 
 - Purpose: forecast next 1–2 months of household energy use from monthly history (>= 3 values).
 - Models: LSTM (primary) with SARIMA fallback; bill and tariff computed with Rwanda rates.
