@@ -4,7 +4,7 @@ FastAPI digital ocean = https://seahorse-app-8xk3k.ondigitalocean.app/docs
 
 landingpage = https://powerlytics-ui.vercel.app/
 
-dashboard = https://github.com/sergekamanzi/Energy-Consumption-Dashboard
+dashboard = https://energy-consumption-dashboard.vercel.app/
 
 backend = https://github.com/sergekamanzi/energy-consumption-server_side
 
