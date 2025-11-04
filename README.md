@@ -1,8 +1,17 @@
 # Energy-consumption-Models
 
-FastAPI = https://github.com/sergekamanzi/Energy-supervised-fastapi
+FastAPI digital ocean = https://seahorse-app-8xk3k.ondigitalocean.app/docs
 
-video = https://youtu.be/mcohwHe89DU
+landingpage = https://github.com/sergekamanzi/powerlyticsUI
+
+dashboard = https://github.com/sergekamanzi/Energy-Consumption-Dashboard
+
+backend = https://github.com/sergekamanzi/energy-consumption-server_side
+
+video for the models = https://youtu.be/mcohwHe89DU
+
+video for the UI = https://www.youtube.com/watch?v=BI6lLXLXFpY
+
 ## **1️ Supervised Learning (energy consumption predictor)**
 
 
@@ -82,6 +91,16 @@ API:
 - **Batch Processing**: Analyze multiple households simultaneously
 - **Real-time Analysis**: Instant results with model explanations
 ---
+
+## **3 Time Series
+
+- Purpose: forecast next 1–2 months of household energy use from monthly history (>= 3 values).
+- Models: LSTM (primary) with SARIMA fallback; bill and tariff computed with Rwanda rates.
+- Files: `timeseries/individual_household_lstm_model.h5`, `timeseries/sarima_model.pkl` (+ optional scalers).
+- Endpoint: `POST /api/timeseries/forecast` → returns per‑month kWh, bill, and tariff bracket; horizon capped at 2.
+
+---
+
 ## Setup Instructions
 
 1. Activate Python Environment
