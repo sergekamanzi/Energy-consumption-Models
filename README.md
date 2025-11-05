@@ -6,7 +6,7 @@ landingpage = https://powerlytics-ui.vercel.app/
 
 dashboard = https://energy-consumption-dashboard.vercel.app/
 
-backend = https://github.com/sergekamanzi/energy-consumption-server_side
+backend = http://localhost:5174/
 
 video for the models = https://youtu.be/mcohwHe89DU
 
