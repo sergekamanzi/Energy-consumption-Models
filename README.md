@@ -10,7 +10,7 @@ backend = https://backend-production-afe71.up.railway.app/
 
 video for the models = https://youtu.be/mcohwHe89DU
 
-video for the UI = https://www.youtube.com/watch?v=BI6lLXLXFpY
+video for the UI = https://docs.google.com/document/d/1_2IX1YLVOjA_IJXBneFa0p19nrYH4nP0J7gRpZ_MD7A/edit?usp=sharing
 
 ## **1️ Supervised Learning (energy consumption predictor)**
 
