@@ -146,3 +146,15 @@ API:
 
 ### User Dashboard
 ![User](img/user.png)
+
+---
+
+### Project Summary – Powerlytics
+
+Powerlytics is an intelligent energy management platform designed to provide households and administrators with actionable insights into energy consumption patterns. Upon visiting the landing page, users are greeted with a brief overview of the system’s purpose and a chatbot that addresses frequently asked questions and provides contact guidance for further assistance.
+
+Users can create an account or log in to access their personalized dashboard. The user dashboard enables households to track their monthly energy usage, predict their future energy consumption for the next two months, and analyze trends over time. It also features sections for reports and settings, along with a navigation bar offering guidance on paying electricity bills and a feedback chat available at all times, ensuring user concerns are captured and addressed to improve the system continuously.
+
+The admin dashboard, accessible only to administrators, provides a comprehensive overview of all households. It includes tools for clustering households using K-means and detecting anomalies in energy usage. Administrators can review detailed reports, analyze patterns, and provide personalized consultations to households where unusual energy consumption is detected, facilitating proactive energy management.
+
+Powerlytics thus combines predictive insights, analytics, and real-time feedback to empower both users and administrators, helping them optimize energy usage, identify irregularities, and make informed decisions for efficient energy management.
