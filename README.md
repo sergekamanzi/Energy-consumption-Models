@@ -6,7 +6,10 @@ landingpage = https://powerlytics-ui.vercel.app/
 
 dashboard = https://energy-consumption-dashboard.vercel.app/
 
-backend = https://backend-production-afe71.up.railway.app/
+backend deployed = https://backend-production-afe71.up.railway.app/ 
+
+backend repository = https://github.com/sergekamanzi/energy-consumption-server_side
+        
 
 ## **1️ Supervised Learning (energy consumption predictor)**
 
