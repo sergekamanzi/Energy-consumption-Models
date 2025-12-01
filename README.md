@@ -2,11 +2,11 @@
 
 FastAPI digital ocean = https://seahorse-app-8xk3k.ondigitalocean.app/docs
 
-landingpage = https://powerlytics-ui.vercel.app/
+landingpage repository = https://github.com/sergekamanzi/powerlyticsUI
 
-dashboard = https://energy-consumption-dashboard.vercel.app/
+dashboard repository = https://github.com/sergekamanzi/Energy-Consumption-Dashboard
 
-backend deployed = https://backend-production-afe71.up.railway.app/ 
+backend deployed = https://backend-production-afe71.up.railway.app/
 
 backend repository = https://github.com/sergekamanzi/energy-consumption-server_side
         
