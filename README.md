@@ -131,3 +131,18 @@ API:
 
    bash
    pip freeze > requirements.txt
+
+---
+## Screenshots
+
+### Admin Panel
+![Admin](img/admin.png)
+
+### Analysis Dashboard
+![Analysis](img/analysis.png)
+
+### Landing Page
+![Landing](img/landing.png)
+
+### User Dashboard
+![User](img/user.png)
